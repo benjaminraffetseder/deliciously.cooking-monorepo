@@ -143,5 +143,14 @@ export const semanticTokens = {
       default: tokens.colors.neutral[900],
       _dark: tokens.colors.neutral[50],
     },
+
+    'btn-link-fg': {
+      default: tokens.colors.neutral[700],
+      _dark: tokens.colors.neutral[500],
+    },
+    'btn-link-fg-hover': {
+      default: tokens.colors.neutral[900],
+      _dark: tokens.colors.neutral[50],
+    },
   },
 }

@@ -42,18 +42,6 @@
       "options": {
         "command": "test-storybook -c libs/ui/.storybook --url=http://localhost:4400"
       }
-    },
-    "static-storybook": {
-      "executor": "@nx/web:file-server",
-      "options": {
-        "buildTarget": "ui:build-storybook",
-        "staticFilePath": "dist/storybook/ui"
-      },
-      "configurations": {
-        "ci": {
-          "buildTarget": "ui:build-storybook:ci"
-        }
-      }
     }
   }
 }
