@@ -1,4 +1,3 @@
-import styles from './page.module.css'
 
 export default async function Index () {
   /*
@@ -8,7 +7,7 @@ export default async function Index () {
    */
 
   return (
-    <div className={styles.page}>
+    <div>
       <div className="wrapper">
         <div className="container">
           <div id="welcome">

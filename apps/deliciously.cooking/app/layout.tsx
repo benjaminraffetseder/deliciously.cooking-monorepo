@@ -1,4 +1,3 @@
-import './global.css'
 
 export const metadata = {
   title: 'Welcome to deliciously.cooking',
@@ -12,7 +11,11 @@ interface RootLayoutProps {
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+
+        {children}
+
+      </body>
     </html>
   )
 }
