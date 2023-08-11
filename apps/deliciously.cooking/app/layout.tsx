@@ -1,3 +1,4 @@
+import { ThemeProvider } from '@deliciously.cooking/ui'
 
 export const metadata = {
   title: 'Welcome to deliciously.cooking',
@@ -12,9 +13,9 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en">
       <body>
-
-        {children}
-
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   )
