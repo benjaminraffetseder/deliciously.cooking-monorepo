@@ -11,7 +11,7 @@ const meta: Meta<typeof Button> = {
       control: { type: 'text' },
     },
     variant: {
-      options: ['primary', 'outline', 'danger'],
+      options: ['primary', 'secondary', 'outline', 'danger'],
       control: { type: 'select' },
     },
     size: {

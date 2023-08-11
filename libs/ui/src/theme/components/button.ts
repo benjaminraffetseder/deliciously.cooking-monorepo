@@ -32,6 +32,14 @@ export const Button = {
         backgroundColor: 'btn-primary-bg-hover',
       },
     },
+    secondary: {
+      backgroundColor: 'btn-secondary-bg',
+      color: 'btn-secondary-fg',
+      _hover: {
+        backgroundColor: 'btn-secondary-bg-hover',
+        color: 'btn-secondary-fg-hover',
+      },
+    },
     outline: {
       backgroundColor: 'btn-outline-bg',
       color: 'btn-outline-fg',

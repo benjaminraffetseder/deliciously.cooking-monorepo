@@ -105,15 +105,15 @@ export const semanticTokens = {
     },
     'btn-secondary-bg': {
       default: tokens.colors.secondary[500],
-      _dark: tokens.colors.secondary[700],
+      _dark: tokens.colors.secondary[500],
     },
     'btn-secondary-fg': {
-      default: tokens.colors.secondary[50],
-      _dark: tokens.colors.secondary[100],
+      default: tokens.colors.secondary[900],
+      _dark: tokens.colors.secondary[900],
     },
     'btn-secondary-bg-hover': {
-      default: tokens.colors.secondary[600],
-      _dark: tokens.colors.secondary[800],
+      default: tokens.colors.secondary[400],
+      _dark: tokens.colors.secondary[400],
     },
     'btn-danger-bg': {
       default: tokens.colors.red[500],
