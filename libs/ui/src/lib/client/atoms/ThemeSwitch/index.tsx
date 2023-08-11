@@ -1,21 +1,24 @@
 'use client'
-import { Box, Button, useColorMode } from '@chakra-ui/react'
+import { Box, IconButton, useColorMode } from '@chakra-ui/react'
 import { MoonIcon, SunIcon } from 'lucide-react'
 import type { FC } from 'react'
 
-interface indexProps {}
+interface ThemeSwitchProps {
+  variant?: 'primary' | 'secondary' | 'outline' | 'danger'
+}
 
-const ThemeSwitch: FC<indexProps> = () => {
+const ThemeSwitch: FC<ThemeSwitchProps> = ({ variant }) => {
   const { toggleColorMode, colorMode } = useColorMode()
+  const ariaLabel = colorMode === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'
   return (
     <Box>
-      <Button variant="outline" onClick={toggleColorMode}>
+      <IconButton aria-label={ariaLabel} variant={variant ?? 'outline'} onClick={toggleColorMode} p={1}>
         {colorMode === 'dark'
           ? (
             <SunIcon size={16}/>
             )
           : <MoonIcon size={16}/>}
-      </Button>
+      </IconButton>
     </Box>
   )
 }
