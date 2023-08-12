@@ -1,7 +1,7 @@
 'use client'
 
 import { Link } from '@chakra-ui/next-js'
-import { Avatar, Box, Button, Container, Flex, Icon, Input, Text } from '@chakra-ui/react'
+import { Box, Button, Container, Flex, Icon, Input, Text } from '@chakra-ui/react'
 import { ChefHatIcon } from 'lucide-react'
 import type { FC } from 'react'
 import { NextLink } from '../../atoms/NextLink'

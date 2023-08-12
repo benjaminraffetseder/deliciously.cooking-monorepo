@@ -1,4 +1,4 @@
-import { Container, Button, ThemeSwitch, Text } from '@deliciously.cooking/ui'
+import { Container, Text } from '@deliciously.cooking/ui'
 
 export default async function Index () {
   /*
