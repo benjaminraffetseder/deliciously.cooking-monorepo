@@ -99,6 +99,10 @@ export const semanticTokens = {
       default: tokens.colors.brand[50],
       _dark: tokens.colors.brand[100],
     },
+    'btn-primary-fg-hover': {
+      default: tokens.colors.brand[50],
+      _dark: tokens.colors.brand[100],
+    },
     'btn-primary-bg-hover': {
       default: tokens.colors.brand[600],
       _dark: tokens.colors.brand[800],
@@ -143,7 +147,6 @@ export const semanticTokens = {
       default: tokens.colors.neutral[900],
       _dark: tokens.colors.neutral[50],
     },
-
     'btn-link-fg': {
       default: tokens.colors.neutral[700],
       _dark: tokens.colors.neutral[500],
@@ -151,6 +154,34 @@ export const semanticTokens = {
     'btn-link-fg-hover': {
       default: tokens.colors.neutral[900],
       _dark: tokens.colors.neutral[50],
+    },
+    'btn-ghost-bg': {
+      default: tokens.colors.neutral[50],
+      _dark: tokens.colors.neutral[900],
+    },
+    'btn-ghost-fg': {
+      default: tokens.colors.neutral[700],
+      _dark: tokens.colors.neutral[500],
+    },
+    'btn-ghost-bg-hover': {
+      default: tokens.colors.brand[100],
+      _dark: tokens.colors.brand[900],
+    },
+    'btn-ghost-fg-hover': {
+      default: tokens.colors.neutral[900],
+      _dark: tokens.colors.neutral[50],
+    },
+    'input-search-bg': {
+      default: tokens.colors.neutral[100],
+      _dark: tokens.colors.neutral[800],
+    },
+    'input-search-fg': {
+      default: tokens.colors.neutral[700],
+      _dark: tokens.colors.neutral[500],
+    },
+    'input-search-placeholder': {
+      default: tokens.colors.neutral[500],
+      _dark: tokens.colors.neutral[500],
     },
   },
 }

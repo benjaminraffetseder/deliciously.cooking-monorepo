@@ -1,6 +1,6 @@
 export const Button = {
   baseStyle: {
-    borderRadius: 'md',
+    borderRadius: 'xl',
     fontWeight: 'normal',
     textTransform: 'none',
   },
@@ -30,6 +30,7 @@ export const Button = {
       color: 'btn-primary-fg',
       _hover: {
         backgroundColor: 'btn-primary-bg-hover',
+        color: 'btn-primary-fg-hover',
       },
     },
     secondary: {
@@ -55,6 +56,14 @@ export const Button = {
       color: 'btn-danger-fg',
       _hover: {
         backgroundColor: 'btn-danger-bg-hover',
+      },
+    },
+    ghost: {
+      backgroundColor: 'btn-ghost-bg',
+      color: 'btn-ghost-fg',
+      _hover: {
+        backgroundColor: 'btn-ghost-bg-hover',
+        color: 'btn-ghost-fg-hover',
       },
     },
   },
