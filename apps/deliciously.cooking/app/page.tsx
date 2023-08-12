@@ -1,4 +1,4 @@
-import { Box, Button, ThemeSwitch } from '@deliciously.cooking/ui'
+import { Container, Button, ThemeSwitch, Text } from '@deliciously.cooking/ui'
 
 export default async function Index () {
   /*
@@ -8,9 +8,10 @@ export default async function Index () {
    */
 
   return (
-    <Box>
-      <ThemeSwitch/>
-      <Button>Button</Button>
-    </Box>
+    <Container maxW="container.xl">
+      <Text as="h1" fontSize="xl" fontWeight="bold" textAlign="center" my={10}>
+        Welcome to deliciously.cooking!
+      </Text>
+    </Container>
   )
 }
