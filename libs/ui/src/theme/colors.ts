@@ -1,31 +1,5 @@
 export const tokens = {
   colors: {
-    brand: {
-      50: 'hsl(94, 41%, 97%)',
-      100: 'hsl(100, 47%, 93%)',
-      200: 'hsl(101, 45%, 85%)',
-      300: 'hsl(102, 43%, 73%)',
-      400: 'hsl(102, 39%, 58%)',
-      500: 'hsl(102, 39%, 45%)',
-      600: 'hsl(103, 43%, 36%)',
-      700: 'hsl(103, 41%, 29%)',
-      800: 'hsl(103, 37%, 24%)',
-      900: 'hsl(105, 34%, 20%)',
-      950: 'hsl(107, 45%, 10%)',
-    },
-    secondary: {
-      50: 'hsl(57, 100%, 96%)',
-      100: 'hsl(55, 100%, 89%)',
-      200: 'hsl(56, 100%, 76%)',
-      300: 'hsl(53, 100%, 64%)',
-      400: 'hsl(51, 100%, 55%)',
-      500: 'hsl(44, 100%, 50%)',
-      600: 'hsl(38, 100%, 44%)',
-      700: 'hsl(32, 98%, 37%)',
-      800: 'hsl(29, 90%, 31%)',
-      900: 'hsl(28, 84%, 26%)',
-      950: 'hsl(28, 100%, 14%)',
-    },
     neutral: {
       50: '#fafafa',
       100: '#f5f5f5',
@@ -162,6 +136,27 @@ export const tokens = {
 
 export const semanticTokens = {
   colors: {
+    auchico: {
+      default: tokens.colors.auchico[700],
+      _dark: tokens.colors.auchico[700],
+    },
+    pampas: {
+      default: tokens.colors.pampas[100],
+      _dark: tokens.colors.neutral[900],
+    },
+    akaroa: {
+      default: tokens.colors.akaroa[300],
+      _dark: tokens.colors.neutral[900],
+    },
+    diserria: {
+      default: tokens.colors.diserria[400],
+      _dark: tokens.colors.neutral[900],
+    },
+    twine: {
+      default: tokens.colors.twine[400],
+      _dark: tokens.colors.neutral[900],
+    },
+
     'bg-default': {
       default: tokens.colors.pampas[100],
       _dark: tokens.colors.neutral[900],
@@ -277,6 +272,18 @@ export const semanticTokens = {
     'input-search-placeholder': {
       default: tokens.colors.pampas[300],
       _dark: tokens.colors.pampas[800],
+    },
+    'input-search-bg-hover': {
+      default: tokens.colors.pampas[50],
+      _dark: tokens.colors.pampas[900],
+    },
+    'drawer-bg': {
+      default: tokens.colors.pampas[100],
+      _dark: tokens.colors.neutral[900],
+    },
+    'divider-default': {
+      default: tokens.colors.pampas[200],
+      _dark: tokens.colors.neutral[800],
     },
   },
 }
