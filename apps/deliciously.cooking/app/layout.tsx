@@ -1,3 +1,4 @@
+import './global.css'
 import { Navigation, ThemeProvider } from '@deliciously.cooking/ui'
 
 export const metadata = {

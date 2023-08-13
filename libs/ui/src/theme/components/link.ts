@@ -26,11 +26,11 @@ export const Link = {
       },
     },
     logo: {
-      color: 'btn-link-fg',
+      color: 'btn-link-logo-fg',
       fontWeight: 'bold',
       fontSize: 'xl',
       _hover: {
-        color: 'btn-link-fg-hover',
+        color: 'btn-link-logo-fg-hover',
       },
     },
     danger: {

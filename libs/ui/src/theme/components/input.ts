@@ -22,6 +22,23 @@ const baseStyle = definePartsStyle({
       },
     },
   },
+  element: {
+    variants: {
+      search: {
+        border: '1px solid',
+        borderColor: 'red.200',
+        background: 'red.200',
+        borderRadius: 'full',
+        color: 'red.500',
+
+        _dark: {
+          borderColor: 'red.600',
+          background: 'red.600',
+          color: 'red.400',
+        },
+      },
+    },
+  },
 })
 
 const searchVariant = definePartsStyle({

@@ -1,8 +1,8 @@
 'use client'
 
 import { Link } from '@chakra-ui/next-js'
-import { Box, Button, Container, Flex, Icon, Input, Text } from '@chakra-ui/react'
-import { ChefHatIcon } from 'lucide-react'
+import { Box, Button, Container, Flex, Icon, Input, InputGroup, InputRightElement, Text } from '@chakra-ui/react'
+import { ChefHatIcon, ShieldCloseIcon } from 'lucide-react'
 import type { FC } from 'react'
 import { NextLink } from '../../atoms/NextLink'
 import { ThemeSwitch } from '../../atoms/ThemeSwitch'
@@ -10,16 +10,14 @@ import { ThemeSwitch } from '../../atoms/ThemeSwitch'
 interface NavigationProps {}
 
 const Navigation: FC<NavigationProps> = () => {
-  const isLogged = false
-
   return (
     <Box as="nav" py={5}>
       <Container maxW="container.xl">
         <Flex w="full" gap={5} alignItems="center" >
           <Link variant="logo" href="/">
             <Flex alignItems="center" gap={2}>
-              <Box bg="btn-primary-bg" rounded="xl" h={10} w={10} display="flex" alignItems="center" justifyContent="center" transform="rotate(45deg)" >
-                <Icon color="white" transform="rotate(-45deg)" as={ChefHatIcon} boxSize={6}/>
+              <Box bg="logo-bg" rounded="xl" h={10} w={10} display="flex" alignItems="center" justifyContent="center" transform="rotate(45deg)" >
+                <Icon color="logo-fg" transform="rotate(-45deg)" as={ChefHatIcon} boxSize={6}/>
               </Box>
               <Text as="span">
                 deliciously.cooking
