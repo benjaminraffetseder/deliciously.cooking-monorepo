@@ -8,6 +8,8 @@ export * from './lib/client/atoms/Box'
 export * from './lib/client/atoms/NextLink'
 export * from './lib/client/atoms/Container'
 export * from './lib/client/atoms/Text'
+export * from './lib/client/atoms/Grid'
 
 // Molecules
 export * from './lib/client/molecules/Navigation'
+export * from './lib/client/molecules/Sidemenu'

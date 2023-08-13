@@ -8,10 +8,10 @@ export default async function Index () {
    */
 
   return (
-    <Container maxW="container.xl">
-      <Text as="h1" fontSize="xl" fontWeight="bold" textAlign="center" my={10}>
-        Welcome to deliciously.cooking!
-      </Text>
-    </Container>
+
+    <Text as="h1" fontSize="xl" fontWeight="bold">
+      Welcome to deliciously.cooking!
+    </Text>
+
   )
 }
