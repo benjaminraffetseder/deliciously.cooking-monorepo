@@ -20,7 +20,7 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@alpin11/eslint-config": "^0.3.2",
+    "@alpin11/eslint-config": "^0.3.6",
     "@babel/preset-react": "^7.14.5",
     "@chakra-ui/storybook-addon": "^5.0.1",
     "@nx/cypress": "16.6.0",

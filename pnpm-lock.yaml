@@ -47,8 +47,8 @@ dependencies:
 
 devDependencies:
   '@alpin11/eslint-config':
-    specifier: ^0.3.2
-    version: 0.3.2(eslint-plugin-n@15.7.0)(typescript@5.1.6)
+    specifier: ^0.3.6
+    version: 0.3.6(eslint-plugin-n@15.7.0)(typescript@5.1.6)
   '@babel/preset-react':
     specifier: ^7.14.5
     version: 7.22.5(@babel/core@7.22.10)
@@ -207,8 +207,8 @@ packages:
     resolution: {integrity: sha512-+RNNcQvw2V1bmnBTPAtOLfW/9mhH2vC67+rUSi5T8EtEWt6lEnGNY2GuhZ1/YwbgikT1TkhvidCDmN5Q5YCo/w==}
     dev: true
 
-  /@alpin11/eslint-config@0.3.2(eslint-plugin-n@15.7.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-hNsEYlA0g5/D9jXWBFY0R/i1IQzcP0sTxpHyQ0rPX9oDeEEzHQn8yzbl1u3uMXXTCd3HAaioSLV8/vHCNkNZYw==}
+  /@alpin11/eslint-config@0.3.6(eslint-plugin-n@15.7.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-Lv8Tg1SP2fWeG+1PnQsnrKpuNVMBBo8a3MB/zs3a8r5QGY8aN4VYgvKfy9nyhv2fgujzI1AqwFUkC2uMHzpaaw==}
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.60.1(@typescript-eslint/parser@5.60.1)(eslint@8.46.0)(typescript@5.1.6)
       '@typescript-eslint/parser': 5.60.1(eslint@8.46.0)(typescript@5.1.6)
